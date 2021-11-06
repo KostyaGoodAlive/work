@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(236, 235, 235);
+
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.container{
+    background-color: #fff;
+    width: 1100px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+    margin-left: 250px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 8px 0px -21px rgba(0,0,0,0.6); 
+box-shadow: 1px 8px 0px -21px rgba(0,0,0,0.6);
+}
+.lesson{
+    width: 250px ;
+    height: 150px;
+    background-color: #fff;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 15px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 8px 50px -21px rgba(0,0,0,0.6); 
+box-shadow: 1px 8px 50px -21px rgba(0,0,0,0.6);
+}
+.lesson-inner{
+    width: 230px;
+    height: 1px;
+    background-color: #5555;
+    margin: 30px auto;
+    
+}
+.fas_fa-code::before{
+    content: "</>";
+    position: absolute;
+    
+}
+a{
+     
+   border: 25px;
+   text-decoration: none;
+   color: black; 
+}
+.lesson-card{
+    padding: 50px;
+    color: lightgray;
+}
+.container:hover{
+    background-color:lightgray;
+}
